@@ -15,12 +15,12 @@
 
 4)В корне проекта в файле conftest.py содержит фикстуру для настройки брайзера.
 
-5)Папка pages содержится:
+5)В папке pages содержится:
 - base-page.py базовый класс
 - auth_page.py методы, которые используются в тестах
 - locators.py локаторы
 
-6)В папка tests содержатся тесты
+6)В папке tests содержатся тесты
 Запуск тестов:
 pytest -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test.py
 
